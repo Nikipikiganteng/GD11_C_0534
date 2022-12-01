@@ -1,4 +1,4 @@
-package com.example.gd11_c_0534.adapters
+package com.example.gd13_c_0534.adapters
 
 import android.content.Context
 import android.content.Intent
@@ -12,10 +12,10 @@ import android.widget.TextView
 import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.example.gd11_c_0534.AddEditActivity
-import com.example.gd11_c_0534.MainActivity
-import com.example.gd11_c_0534.R
-import com.example.gd11_c_0534.models.Mahasiswa
+import com.example.gd13_c_0534.AddEditActivity
+import com.example.gd13_c_0534.MainActivity
+import com.example.gd13_c_0534.R
+import com.example.gd13_c_0534.models.Mahasiswa
 import java.util.*
 import kotlin.collections.ArrayList
 

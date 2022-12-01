@@ -15,12 +15,12 @@
         app:layout_constraintBottom_toTopOf="@+id/ll_button"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" >
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <TextView
                 android:id="@+id/tv_title"
@@ -28,7 +28,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:text="Tambah Produk" />
+                android:text="Tambah Produk"/>
 
             <com.google.android.material.textfield.TextInputLayout
                 android:id="@+id/layout_nama"
@@ -37,13 +37,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="8dp"
-                android:hint="Nama Mahasiswa" >
+                android:hint="Nama Mahasiswa">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/et_nama"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="textCapWords" />
+                    android:inputType="textCapWords"/>
+
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -53,13 +54,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="8dp"
-                android:hint="NPM" >
+                android:hint="NPM">
 
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/et_npm"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number" />
+                    android:inputType="number"/>
+
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -69,13 +71,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="8dp"
-                android:hint="Fakultas" >
+                android:hint="Fakultas">
 
                 <AutoCompleteTextView
-                    android:id="@+id/et_fakultas"
+                    android:id="@+id/ed_fakultas"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="none" />
+                    android:inputType="none"/>
+
             </com.google.android.material.textfield.TextInputLayout>
 
             <com.google.android.material.textfield.TextInputLayout
@@ -85,17 +88,18 @@
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="16dp"
                 android:layout_marginTop="8dp"
-                android:hint="Prodi" >
+                android:hint="Prodi">
 
                 <AutoCompleteTextView
-                    android:id="@+id/et_prodi"
+                    android:id="@+id/ed_prodi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="none" />
+                    android:inputType="none"/>
+
             </com.google.android.material.textfield.TextInputLayout>
 
-
         </LinearLayout>
+
     </ScrollView>
 
     <LinearLayout
@@ -114,19 +118,21 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Batal" />
+            android:text="Batal"/>
 
         <Button
             android:id="@+id/btn_save"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Simpan" />
+            android:text="Simpan"/>
+
     </LinearLayout>
 
     <include
         android:id="@+id/layout_loading"
         layout="@layout/layout_loading"
-        android:visibility="gone" />
+        android:visibility="gone"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

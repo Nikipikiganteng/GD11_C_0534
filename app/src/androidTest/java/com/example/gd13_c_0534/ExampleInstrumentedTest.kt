@@ -1,4 +1,4 @@
-package com.example.gd11_c_0534
+package com.example.gd13_c_0534
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

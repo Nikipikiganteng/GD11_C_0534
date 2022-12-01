@@ -1,4 +1,4 @@
-package com.example.gd11_c_0534
+package com.example.gd13_c_0534
 
 import android.app.Activity
 import android.content.Intent
@@ -19,9 +19,9 @@ import com.android.volley.toolbox.StringRequest
 import com.android.volley.toolbox.Volley
 import com.google.android.material.floatingactionbutton.FloatingActionButton
 import com.google.gson.Gson
-import com.example.gd11_c_0534.adapters.MahasiswaAdapter
-import com.example.gd11_c_0534.api.MahasiswaApi
-import com.example.gd11_c_0534.models.Mahasiswa
+import com.example.gd13_c_0534.adapters.MahasiswaAdapter
+import com.example.gd13_c_0534.api.MahasiswaApi
+import com.example.gd13_c_0534.models.Mahasiswa
 import org.json.JSONObject
 import java.nio.charset.StandardCharsets
 
